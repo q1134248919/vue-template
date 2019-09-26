@@ -33,28 +33,27 @@ export default {
    left: 0;
    right:0;
    bottom: 0;
-  background: #080915;
-  box-shadow: 0px 0px 30px 1px #103136 inset;
+   z-index:99;
+   background: rgba(0,0,0,0);
 }
 .loading{
     position: absolute;
     width: 200px;
     height: 100px;
-    border-radius: 50%;
+ 
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    display: inline-block;
-   
-
+    display: inline-block;  
+     opacity: 0.7;
 }
 .squre{
     width: 25px;
     height: 7px;
-    background: white;
+    background:rgb(0, 0, 0);
     box-shadow: 2px 2px 3px 0px black;
     top: 50%;
-    
+     
     position: absolute;
 }
 .squre1{
@@ -78,7 +77,7 @@ export default {
   left:65px;
 }
 .font{
- color:#fff;
+ color:#000;
  position: absolute;
  bottom: 0;
  left: 50%;

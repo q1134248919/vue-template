@@ -1,11 +1,14 @@
 <!--  -->
 <template>
   <div class='warpper'>
-      111
+      
   </div>
 </template>
 
 <script>
+
+// import  {getAccount} from '../server/api'
+
 export default {
   name:'home',
   data () {
@@ -17,9 +20,15 @@ export default {
 
   computed: {},
 
-  mounted:function(){
-    //  this.showLoading();
+  created:function(){
+     this.showLoading();
      this.showMsg();
+  
+  },
+  mounted:function(){
+  //  getAccount().then(res=>{
+  //    console.log(res);
+  //  });
   },
 
   methods: {
@@ -28,7 +37,8 @@ export default {
       },
       showMsg(){
         this.$store.dispatch('changeMsgStatus','显示一条信息');
-      }
+      },
+      
   }
 }
 
