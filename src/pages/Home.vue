@@ -23,7 +23,7 @@ export default {
   created:function(){
      this.showLoading();
      this.showMsg();
-  
+     console.log(1);
   },
   mounted:function(){
   //  getAccount().then(res=>{
