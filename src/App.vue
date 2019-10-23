@@ -28,6 +28,9 @@ export default {
        msg:'msg'
      })
    },
+   mounted(){
+     console.log(1);
+   }
 }
 </script>
 
