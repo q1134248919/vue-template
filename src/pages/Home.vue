@@ -30,7 +30,7 @@ export default {
   //  getAccount().then(res=>{
   //    console.log(res);
   //  });
-console.log(1);
+  console.log(2);
   },
 
   methods: {
