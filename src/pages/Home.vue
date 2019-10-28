@@ -24,6 +24,7 @@ export default {
      this.showLoading();
      this.showMsg();
      console.log(4);
+     console.log(5);
   },
   mounted:function(){
   //  getAccount().then(res=>{
