@@ -29,6 +29,7 @@ export default {
   //  getAccount().then(res=>{
   //    console.log(res);
   //  });
+console.log(1);
   },
 
   methods: {
